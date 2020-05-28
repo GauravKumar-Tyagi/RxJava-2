@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadeScrollbars="false"
+            android:padding="16dp"
+            android:background="#FFFFFF"
+           >
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/idOperators"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Operators"
+                android:textColor="#FFFFFF" />
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/idNetworking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Networking"
+                android:textColor="#FFFFFF" />
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/idRx_bus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RxBus"
+                android:textColor="#FFFFFF" />
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/idPagination"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pagination"
+                android:textColor="#FFFFFF" />
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/idSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Search"
+                android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.demo_rxjava_android">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+            android:name="com.example.demo_rxjava_android.view.rxBus.MyApplication"
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name="com.example.demo_rxjava_android.view.networking.NetworkingActivity">
+        </activity>
+        <activity android:name="com.example.demo_rxjava_android.view.operators.OperatorsActivity"/>
+        <activity android:name="com.example.demo_rxjava_android.view.operators.SimpleExampleActivity"/>
+        <activity android:name="com.example.demo_rxjava_android.view.operators.MapExampleActivity"/>
+        <activity android:name="com.example.demo_rxjava_android.view.operators.ZipExampleActivity"/>
+        <activity android:name="com.example.demo_rxjava_android.view.operators.DisposableExampleActivity"/>
+        <activity android:name="com.example.demo_rxjava_android.view.operators.TakeExampleActivity"/>
+        <activity android:name="com.example.demo_rxjava_android.view.operators.TimerExampleActivity"/>
+        <activity android:name="com.example.demo_rxjava_android.view.operators.SingleObserverExampleActivity"/>
+        <activity android:name="com.example.demo_rxjava_android.view.operators.CompletableObserverExampleActivity"/>
+        <activity android:name="com.example.demo_rxjava_android.view.operators.FlowableExampleActivity"/>
+        <activity android:name="com.example.demo_rxjava_android.view.operators.ReduceExampleActivity"/>
+        <activity android:name="com.example.demo_rxjava_android.view.operators.BufferExampleActivity"/>
+        <activity android:name="com.example.demo_rxjava_android.view.operators.FilterExampleActivity"/>
+        <activity android:name="com.example.demo_rxjava_android.view.operators.SkipExampleActivity"/>
+        <activity android:name="com.example.demo_rxjava_android.view.operators.ScanExampleActivity"/>
+        <activity android:name="com.example.demo_rxjava_android.view.operators.ConcatExampleActivity"/>
+        <activity android:name="com.example.demo_rxjava_android.view.operators.MergeExampleActivity"/>
+        <activity android:name="com.example.demo_rxjava_android.view.operators.DeferExampleActivity"/>
+        <activity android:name="com.example.demo_rxjava_android.view.operators.DistinctExampleActivity"/>
+        <activity android:name="com.example.demo_rxjava_android.view.operators.LastOperatorExampleActivity"/>
+        <activity android:name="com.example.demo_rxjava_android.view.operators.ReplaySubjectExampleActivity"/>
+        <activity android:name="com.example.demo_rxjava_android.view.operators.PublishSubjectExampleActivity"/>
+        <activity android:name="com.example.demo_rxjava_android.view.operators.BehaviorSubjectExampleActivity"/>
+        <activity android:name="com.example.demo_rxjava_android.view.operators.AsyncSubjectExampleActivity"/>
+        <activity android:name="com.example.demo_rxjava_android.view.operators.DebounceExampleActivity"/>
+        <activity android:name="com.example.demo_rxjava_android.view.operators.DelayExampleActivity"/>
+        <activity android:name="com.example.demo_rxjava_android.view.operators.SwitchMapExampleActivity"/>
+        <activity android:name="com.example.demo_rxjava_android.view.operators.TakeWhileExampleActivity"/>
+        <activity android:name="com.example.demo_rxjava_android.view.operators.TakeUntilExampleActivity"/>
+        <activity android:name="com.example.demo_rxjava_android.view.operators.IntervalExampleActivity"/>
+        <activity android:name="com.example.demo_rxjava_android.view.operators.ReplayExampleActivity"/>
+
+        <activity android:name="com.example.demo_rxjava_android.view.networking.MapActivity"/>
+        <activity android:name="com.example.demo_rxjava_android.view.networking.ZipActivity"/>
+        <activity android:name="com.example.demo_rxjava_android.view.networking.FlatMapAndFilter"/>
+        <activity android:name="com.example.demo_rxjava_android.view.networking.TakeActivity"/>
+        <activity android:name="com.example.demo_rxjava_android.view.networking.FlatMapActivity"/>
+        <activity android:name="com.example.demo_rxjava_android.view.networking.FlatMapWithZipActivity"/>
+
+        <activity android:name="com.example.demo_rxjava_android.view.rxBus.RxBusActivity"/>
+        <activity android:name="com.example.demo_rxjava_android.view.pagination.PaginationActivity"/>
+        <activity android:name="com.example.demo_rxjava_android.view.search.SearchActivity"/>
+
+        <activity android:name="com.example.demo_rxjava_android.view.SelectOptionActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

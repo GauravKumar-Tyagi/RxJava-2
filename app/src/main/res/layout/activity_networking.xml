@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadeScrollbars="false"
+            android:fillViewport="true"
+            android:padding="16dp"
+            android:background="#FFFFFF"
+>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp"
+            android:paddingBottom="32dp"
+    >
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Map  (Most Imp)"
+                android:textColor="#FFFFFF" />
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/zip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Zip  (Most Imp)"
+                android:textColor="#FFFFFF" />
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/flatMapAndFilter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FlatMap And Filter  (Most Imp)"
+                android:textColor="#FFFFFF" />
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/take"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Take  (Most Imp)"
+                android:textColor="#FFFFFF" />
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/flatMap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FlatMap  (Most Imp)"
+                android:textColor="#FFFFFF" />
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/flatMapWithZip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FlatMap With Zip  (Most Most Imp)"
+                android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>

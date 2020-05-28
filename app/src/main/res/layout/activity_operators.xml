@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadeScrollbars="false"
+            android:fillViewport="true"
+           android:padding="16dp"
+            android:background="#FFFFFF"
+>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp"
+            android:paddingBottom="32dp"
+    >
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/simple"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Simple"
+                android:textColor="#FFFFFF" />
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Map (IMP)"
+                android:textColor="#FFFFFF" />
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/zip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Zip (IMP)"
+                android:textColor="#FFFFFF" />
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/disposable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Disposable (IMP)"
+                android:textColor="#FFFFFF" />
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/take"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Take"
+                android:textColor="#FFFFFF" />
+
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/timer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Timer"
+                android:textColor="#FFFFFF" />
+
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/singleObserver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Single Observer (IMP)"
+                android:textColor="#FFFFFF" />
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/completableObserver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Completable Observer (IMP)"
+                android:textColor="#FFFFFF" />
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/flowable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Flowable"
+                android:textColor="#FFFFFF" />
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/reduce"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reduce"
+                android:textColor="#FFFFFF" />
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/buffer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Buffer"
+                android:textColor="#FFFFFF" />
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/filter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Filter (IMP)"
+                android:textColor="#FFFFFF" />
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/skip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Skip"
+                android:textColor="#FFFFFF" />
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/scan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Scan"
+                android:textColor="#FFFFFF" />
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/concat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Concat (IMP)"
+                android:textColor="#FFFFFF" />
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/merge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Merge"
+                android:textColor="#FFFFFF" />
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/defer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Defer"
+                android:textColor="#FFFFFF" />
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/distinct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Distinct"
+                android:textColor="#FFFFFF" />
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/last"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Last"
+                android:textColor="#FFFFFF" />
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/replay_subject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Replay Subject (Imp)"
+                android:textColor="#FFFFFF" />
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/publish_subject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Publish Subject (Imp)"
+                android:textColor="#FFFFFF" />
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/behavior_subject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Behavior Subject (Imp)"
+                android:textColor="#FFFFFF" />
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/async_subject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Async Subject (Imp)"
+                android:textColor="#FFFFFF" />
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/debounce"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Debounce (Most Imp)"
+                android:textColor="#FFFFFF" />
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/delay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delay"
+                android:textColor="#FFFFFF" />
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/switch_map"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Switch Map"
+                android:textColor="#FFFFFF" />
+
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/interval"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Interval"
+                android:textColor="#FFFFFF" />
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/replay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Replay"
+                android:textColor="#FFFFFF" />
+
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/take_while"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Take While"
+                android:textColor="#FFFFFF" />
+
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/take_until"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Take Until"
+                android:textColor="#FFFFFF" />
+    </LinearLayout>
+</ScrollView>
